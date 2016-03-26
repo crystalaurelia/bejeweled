@@ -13,6 +13,8 @@
 
 Bejeweled game implemented in Javascript. 
 
+Create at least 3 consecutive tiles of the same color horizontally or vertically to clear & score points.
+
 Features: 
 + 8 x 8 game board
 + start & reset controls
