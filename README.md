@@ -4,7 +4,7 @@
 
 ## to run
 
-1. Download repository.
+1. Download repository. Navigate to bejeweled.html in browser.
 2. Click "Start" to begin game.
 3. Click directly on tile and pick an adjacent tile to swap.
 4. Game over when no more tiles can be swapped.
