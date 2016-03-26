@@ -310,7 +310,7 @@ var bejeweled = (function() {
 
 	function checkAlive() {
 		if (!checkMatch()) {
-			alert("No more valid move, game over!");
+			alert("No more valid moves, game over!");
 			game_flag = 0;
 		}
 	}
