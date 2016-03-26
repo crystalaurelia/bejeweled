@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bejeweled</title>
+	<link rel="stylesheet" type="text/css" href="css/bejeweled.css">
+</head>
+<body>
+	<div class="main">
+	<section>
+		<h1>Bejeweled</h1>
+		Current score: <span id="currentScore">0</span>    
+		High score: <span id="highScore">0</span>
+	</section>
+	<section>
+		<canvas id="gameBoard" width="400" height="400" onclick="bejeweled.pickTile(event)">
+			Your browser does not support the HTML5 canvas tag!
+		</canvas>
+	</section>
+	<section>
+		<p class="control" onclick="bejeweled.startGame()">Start</p>
+		<p class="control" onclick="bejeweled.resetGame()">Reset</p>
+	</section>
+	
+	</div>
+	<script type="text/javascript" src="js/bejeweled.js"></script>
+</body>
+</html>

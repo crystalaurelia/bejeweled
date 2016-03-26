@@ -1,0 +1,42 @@
+body {
+	font: 14px verdana, serif;
+	letter-spacing: 2px;
+	color: #9A9BA5;
+}
+h1 {
+	letter-spacing: 4px;
+	font-size: 2em;
+}
+
+.main {
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+canvas {
+	border:1px solid #c3c3c3;
+	display: block;
+	margin: 0 auto;
+}
+
+.control {
+  -webkit-border-radius: 20;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 10px;
+  background: #9A9BA5;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+  text-align:center;
+}
+
+.control:hover {
+  background: #AEACC3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section, header, aside {
+	padding: 1em;
+}
