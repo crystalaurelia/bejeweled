@@ -55,7 +55,7 @@ var bejeweled = (function() {
 				markTile(false, selectedX, selectedY); //unmark the previously picked tile
 			}
 			else {
-				if (selectedX < markedX-1 || selectedX > markedY+1 || selectedY < markedY-1 || selectedY > markedY+1 || 
+				if (selectedX < markedX-1 || selectedX > markedX+1 || selectedY < markedY-1 || selectedY > markedY+1 || 
 				(selectedX == markedX-1 && selectedY == markedY-1) || (selectedX == markedX+1 && selectedY == markedY+1)  ||
 				(selectedX == markedX-1 && selectedY == markedY+1) || (selectedX == markedX+1 && selectedY == markedY-1)) {
 					picked = 1;
