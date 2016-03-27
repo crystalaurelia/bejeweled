@@ -22,7 +22,7 @@ Features:
 + 6 "jewel" colors
 + game over condition
 
-In progress:
+ToDo:
 + animated transitions
 + website implementation
 + save scores and users
