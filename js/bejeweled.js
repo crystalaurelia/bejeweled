@@ -325,7 +325,7 @@
 
 	window.Bejeweled.prototype.checkAlive = function() {
 		if (!this.checkMatch()) {
-			alert("No more valid move, game over!");
+			alert("No more valid moves, game over!");
 			this.game_flag = 0;
 		}
 	};
