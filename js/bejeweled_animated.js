@@ -447,6 +447,7 @@
 
 	window.Bejeweled.prototype.start_onclick = function(event) {
 		if (this.gameFlag == 1) return;
+		this.canvasElement.removeAttribute("class");
 		this.gameFlag = 1;
 		this.score = 0;
 		this.inAnimation = false;

@@ -325,12 +325,13 @@
 
 	window.Bejeweled.prototype.checkAlive = function() {
 		if (!this.checkMatch()) {
-			alert("No more valid moves, game over!");
+			alert("No more valid move, game over!");
 			this.game_flag = 0;
 		}
 	};
 
 	window.Bejeweled.prototype.start_onclick = function() {
+		this.canvasElement.removeAttribute("class");
 		this.game_flag = 1;
 		this.score = 0;
 		while (this.scanBoard());

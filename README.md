@@ -23,6 +23,6 @@ Features:
 + game over condition
 
 ToDo List:
-+ animated transitions
++ animated transitions (done - use bejeweled_animated.html)
 + website implementation
 + save scores and users

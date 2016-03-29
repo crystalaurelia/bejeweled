@@ -24,6 +24,10 @@ canvas {
 	display: none;
 }
 
+.greyout {
+	opacity: .5;
+}
+
 .control {
   -webkit-border-radius: 20;
   border-radius: 20px;
