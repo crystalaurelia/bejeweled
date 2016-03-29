@@ -100,8 +100,8 @@
 		if (this.game_flag == 0) return;
 	
 		var color, col1, col2, row1, row2;
-		var selectedX = Math.floor((event.clientX - this.canvasElement.offsetLeft) / this.size);
-		var selectedY = Math.floor((event.clientY - this.canvasElement.offsetTop) / this.size);
+		var selectedX = Math.floor((event.clientX + window.scrollX - this.canvasElement.offsetLeft) / this.size);
+		var selectedY = Math.floor((event.clientY + window.scrollY  - this.canvasElement.offsetTop) / this.size);
 		selectedX = (selectedX >= this.boardWidth) ? this.boardWidth-1 : selectedX;
 		selectedY = (selectedY >= this.boardHeight) ? this.boardHeight-1 : selectedY;
 		this.picked++;

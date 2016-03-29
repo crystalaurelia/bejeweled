@@ -20,6 +20,10 @@ canvas {
 	margin: 0 auto;
 }
 
+#bufferBoard {
+	display: none;
+}
+
 .control {
   -webkit-border-radius: 20;
   border-radius: 20px;
