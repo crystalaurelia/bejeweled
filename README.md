@@ -21,8 +21,4 @@ Features:
 + scoring system
 + 6 "jewel" colors
 + game over condition
-
-ToDo List:
-+ animated transitions (done - use bejeweled_animated.html)
-+ website implementation
-+ save scores and users
++ animated transitions
